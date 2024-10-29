@@ -29,7 +29,7 @@ const App = () => {
   };
 
   const sendRequests = async () => {
-    const totalRequests = 10;
+    const totalRequests = 1000;
     const delay = 1000 / concurrency;
     let activeRequests = 0;
     let requestIndex = 1;
